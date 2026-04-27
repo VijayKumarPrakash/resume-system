@@ -73,7 +73,7 @@ All facts, metrics, and accomplishments are in `candidate.md` — never fabricat
 - Do NOT include "Finishing MIMS at UC Berkeley (May 2026)" in summary — redundant
 - MongoDB listed explicitly in skills where relevant
 - All resumes must be exactly one page
-- Bold key impact metrics, standout numbers, and high-signal keywords within bullets using `\textbf{}` to aid skimming (e.g. `\textbf{70\%}`, `\textbf{250+}`, `\textbf{\$60B}`, `\textbf{PostgreSQL}`)
+- Use `\textbf{}` sparingly — highlight only the most impactful metric or keyword in select bullets, not every bullet. In the summary, use it at most once on the single strongest signal. The goal is to reward skimming, not make every line look busy.
 
 ---
 
