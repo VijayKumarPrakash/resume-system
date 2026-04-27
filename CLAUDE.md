@@ -2,7 +2,7 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
-_Resume system for Vijay Kumar Prakash. Last updated: 2026-04-25._
+_Resume system for Vijay Kumar Prakash. Last updated: 2026-04-26._
 
 ---
 
@@ -14,7 +14,7 @@ Three source files drive everything:
 - **`template.tex`** — LaTeX formatting skeleton (margins, fonts, section structure). Content is swapped in per-role.
 - **`CLAUDE.md`** (this file) — candidate identity, confirmed metrics, role framing axes, formatting rules, and workflow.
 
-Generated files go to `/Users/vkp/Desktop/Resume/[Company]/` — never inside this repo.
+Generated files go to `/Users/vkp/Desktop/Resume/FTE Apps/[Company]/` — never inside this repo.
 
 ---
 
@@ -88,9 +88,9 @@ All facts, metrics, and accomplishments are in `candidate.md` — never fabricat
 2. Use `template.tex` as the structural skeleton
 3. Identify the role axis (see Role Axes below)
 4. Tailor the resume — framing, bullet selection, skills section
-5. Save `.tex` to: `/Users/vkp/Desktop/Resume/[Company]/tex_VKP_[Company]_[Role]_[YYYYMMDD].tex`
+5. Save `.tex` to: `/Users/vkp/Desktop/Resume/FTE Apps/[Company]/tex_VKP_[Company]_[Role]_[YYYYMMDD].tex`
 6. Compile PDF: `python scripts/compile_resume.py <tex_path> <Company>`
-7. Save PDF to: `/Users/vkp/Desktop/Resume/[Company]/VKP_[Company]_[Role]_[YYYYMMDD].pdf`
+7. Save PDF to: `/Users/vkp/Desktop/Resume/FTE Apps/[Company]/VKP_[Company]_[Role]_[YYYYMMDD].pdf`
 8. Confirm file locations to user
 
 ### Naming convention:
