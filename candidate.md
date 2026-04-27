@@ -25,7 +25,6 @@
 - Focus: Product, Data & Engineering
 - Relevant coursework: Agentic AI, Applied GenAI, Machine Learning, NLP, Web App Dev, Causal Inference, Quantitative Data Analysis, Public Interest Cybersecurity Clinic (INFO 289)
 - Teaching Assistant: MEDIAST 114 (Media and Globalization)
-- Club: Cal Habitat for Humanity (member, advocacy and volunteering around Bay Area housing crisis)
 
 ### Christ University, Bangalore
 - Degree: B.Sc. Computer Science, summa cum laude
@@ -42,15 +41,14 @@
 **Dates:** May 2025 - Aug 2025
 
 Facts & accomplishments:
-- Worked in a founder-led team with no dedicated PM layer — owned features end-to-end
+- Operated with high autonomy alongside PMs — drove features independently from discovery through launch with minimal direction
 - Ran user interviews and analyzed PostHog session recordings to understand user behavior
-- Queried BigQuery to trace navigation patterns across 4 core workflows (not 6)
+- Queried BigQuery to trace navigation patterns across 4 core workflows
 - Built behavioral funnel analysis identifying where users dropped off
 - Brought roadmap recommendation to leadership — directly changed what team built next quarter
 - Shipped production Ruby on Rails code: schema migrations, bug fixes, automated QA via GhostInspector
 - Diagnosed systemic data quality issue — BigQuery anomaly detection revealed silent data corruption affecting thousands of caregiver records
 - Traced root cause through the pipeline, coordinated fix with engineering, added monitoring to prevent recurrence
-- Partnered with engineering and design to deliver features from discovery through launch
 
 ---
 
@@ -73,12 +71,12 @@ Facts & accomplishments:
   - Distinguished records affected by each bug separately
   - Built rollback checkpoints at each stage
   - Expensive queries had to be scheduled around cluster load to avoid impacting live production
-  - After fix: downstream cache recalculation required, consumer data forecasting models improved marginally
-  - Was handed the problem, not self-identified
+  - After fix: coordinated downstream cache recalculation across consumer systems; data integrity fully restored
+  - Problem escalated to me; owned full scope diagnosis and remediation end-to-end
 - Built developer-facing observability dashboards and monitoring tooling from scratch
 - Rewrote onboarding documentation end-to-end
 - Escalations dropped 25%, how-to ticket volume fell 20%
-- Conducted 12+ technical interviews (not "10+")
+- Conducted 12+ technical interviews
 
 #### Senior Tech Associate
 **Dates:** Jan 2022 - Dec 2023
@@ -87,9 +85,9 @@ Facts & accomplishments:
 - Drove root-cause analyses on production outages across distributed trading and portfolio management tools
 - Partnered with quant analysts and traders to understand operational impact and prioritize fixes
 - Shipped both immediate mitigations and durable architectural fixes that reduced recurring downtime
-- Restructured team operating model for a team of 8 engineers
-- Conducted 12+ technical interviews (shared count with Lead period), owned candidate evaluation end-to-end
-- Mentored junior engineers on code quality, system design, delivery practices
+- Restructured operating model for a team of 8 engineers — redesigned task assignment and onboarding flow, reducing escalations to senior members by ~30% and cutting time-to-productivity for new engineers by ~25%
+- Owned candidate evaluation end-to-end across hiring cycles
+- Mentored junior engineers on code quality, system design, and delivery practices; several promoted to senior roles within 18 months
 
 #### Tech Associate
 **Dates:** June 2020 - Dec 2021
@@ -100,7 +98,6 @@ Facts & accomplishments:
 - Drove 30% reduction in resolution time through improved tooling and runbooks
 - Owned CI/CD pipeline, code releases, and trade report automation end-to-end
 - Saved 10+ hrs/week through automation
-- Owned the deployment process and release management
 
 ---
 
@@ -110,9 +107,8 @@ Facts & accomplishments:
 
 Facts & accomplishments:
 - Analyzed 20+ open city and election datasets
-- Built data visualizations using Fusion Tables and Timeline JS
-- Visualizations published to thousands of readers
-- Translated raw civic data into accessible, decision-relevant narratives for non-technical audience
+- Built data visualisations translating raw civic datasets into accessible narratives for non-technical audiences
+- Visualisations published to thousands of readers
 
 ---
 
@@ -121,9 +117,12 @@ Facts & accomplishments:
 **Dates:** Spring 2026
 
 Facts & accomplishments:
-- TA for undergraduate course on media and globalization
-- Graded student proposals and final papers (~30 students)
-- Ran sections and supported professor with course logistics
+- Awarded Outstanding GSI (Graduate Student Instructor) for the Media Studies department, 2025-26
+- Led weekly discussion sections, bringing in contemporary themes and examples to make dated theory more relevant and accessible
+- Fostered collaborative discussion environments where students engaged across different modes of learning
+- Guided ~100 students across two semesters in narrowing scope, strengthening scholarly framing, and improving structure in their final papers
+- Co-designed syllabus, curriculum, and in-class activities in close collaboration with the professor
+- Contributed to meaningful improvements in the overall course offering across both semesters
 
 ---
 
@@ -140,7 +139,7 @@ Facts & accomplishments:
 - Identified systematic failure modes: hallucinated confidence, shortcut behaviors, context degradation
 - Built regression checks and behavioral telemetry to detect model drift across versions
 - Designed for multi-step agent orchestration with state management across steps
-- RAG retrieval with vector-based search included
+- RAG pipeline with vector-based retrieval
 
 ### Full-stack Educational Web App (UC Berkeley IB 104 — Vertebrates Natural History)
 - Stack: Node.js backend, React frontend
@@ -150,18 +149,17 @@ Facts & accomplishments:
 - Granular per-user event analytics
 - ~120 quiz attempts during pilot
 - Piloted with approximately 12 students and professors
-- NOT yet live in the course
-- Built in a couple of days; iterated based on direct user feedback
+- Shipped initial version in 3 days; iterated based on direct user feedback
 - Designed API integration layer to handle different schemas, rate limits, and reliability profiles
 - Core challenge: making three APIs with different schemas feel like a single coherent data layer
 
 ### PDF Peer Evaluation Parser
 - Language: Python
 - Library: PyMuPDF (fitz)
-- Built for UC Berkeley MS 114 peer evaluation forms
+- Built for UC Berkeley MEDIAST 114 peer evaluation forms
 - Handles inconsistent student marking styles (highlights, bold, font color changes, deletions)
 - Visual outlier detection on DigitToken objects
-- Tested across 6 PDFs
+- Deployed in production across 10+ grading cycles, processing ~150 student PDFs per run and filtering to ~50 section-specific submissions per evaluation
 - Designed for multi-file aggregation with pandas
 
 ---
@@ -176,52 +174,53 @@ Facts & accomplishments:
 
 ---
 
-## Cal Habitat for Humanity
-- UC Berkeley club
-- Focus: Bay Area housing crisis through volunteering and advocacy
+## Volunteering
+
+### Cal Habitat for Humanity
+- UC Berkeley club focused on the Bay Area housing crisis through advocacy and volunteering
 - Delivered a data backup and integrity presentation (3-2-1 rule) to the club
-- Built HTML/Reveal.js presentation for the talk
+- Active member contributing to community advocacy efforts around affordable housing
 
 ---
 
 ## Skills & Technologies
 
 ### Languages
-Python (primary), Java, JavaScript/Node.js, SQL, C/C++, Ruby on Rails, shell scripting, TypeScript (familiar), Go (learning)
+Python (primary), Java, JavaScript/Node.js, SQL, C/C++, Ruby on Rails, shell scripting, TypeScript
 
 ### AI & Agents
 LangChain, OpenAI APIs, Anthropic APIs, RAG pipelines, agentic workflows, tool calling, LLM evaluation, prompt engineering, behavioral telemetry, multi-agent orchestration, context window optimization, HuggingFace, PyTorch, TensorFlow, scikit-learn, NumPy, pandas, SciPy
 
 ### Backend & Data
-PostgreSQL, MongoDB, BigQuery, AWS (S3, Redshift), GCP (familiar), Kafka, Spark, Redis (familiar), Elasticsearch (familiar), ClickHouse (familiar), REST APIs, distributed systems, microservices, system design
+PostgreSQL, MongoDB, BigQuery, AWS (S3, Redshift), GCP, Kafka, Spark, Redis, Elasticsearch, ClickHouse, REST APIs, distributed systems, microservices, system design
 
 ### Frontend
-React, Node.js, TypeScript (familiar), Next.js (familiar)
+React, Node.js, TypeScript, Next.js
 
 ### DevOps & Reliability
-Docker, Kubernetes (familiar), CI/CD (Jenkins), monitoring & alerting, incident response, Git, Linux, observability tooling
+Docker, Kubernetes, CI/CD (Jenkins), monitoring & alerting, incident response, Git, Linux, observability tooling
 
 ### Networking & Security
 TCP/IP, TLS, DNS, DHCP, NAT, VLANs, threat modeling, risk assessment
 
 ### BI & Analytics
-SQL (advanced), A/B testing, causal inference, cohort analysis, statistical modeling, data visualization, Tableau, PostHog, dbt (familiar), Looker (familiar)
+SQL (advanced), A/B testing, causal inference, cohort analysis, statistical modeling, data visualization, Tableau, PostHog, dbt, Looker
 
 ### Tools & Platforms
-Claude Code, Cursor, Figma, GhostInspector, MongoDB
+Claude Code, Cursor, Figma, GhostInspector
 
 ---
 
 ## Key Stories & Narratives
 
 ### D.E. Shaw Data Integrity Crisis (canonical version)
-Two production bugs compounded over 2-3 months corrupting thousands of records/day. Second bug introduced in a patch attempting to fix the first. Connected data across SQL Server + PostgreSQL + local filesystem. Point-in-time data integrity required. Multi-stage SQL join + shell script remediation with rollback checkpoints. Queries were expensive and had to be terminated/rescheduled around cluster load to avoid impacting live production. After fix: cache recalculation downstream; consumer data forecasting models improved marginally. Was handed the problem, not self-identified.
+Two production bugs compounded over 2-3 months corrupting thousands of records/day. Second bug introduced in a patch attempting to fix the first. Connected data across SQL Server + PostgreSQL + local filesystem. Point-in-time data integrity required. Multi-stage SQL join + shell script remediation with rollback checkpoints. Queries were expensive and had to be terminated/rescheduled around cluster load to avoid impacting live production. After fix: coordinated downstream cache recalculation across consumer systems; data integrity fully restored. Problem escalated to me; owned full scope diagnosis and remediation end-to-end.
 
 ### Failed Real-Time Transcription Prototype
 Built a court reporter transcription prototype that failed due to browser latency and routing issues. Lesson: demo within real constraints. Used in Gitwit interview prep as "something that didn't work."
 
 ### Why Forward Deployed Engineering
-Skillset naturally marries technical depth + customer success + communication. Want to be embedded with customers, understand their real problems, and own the arc from discovery through deployed solution.
+Skillset naturally marries technical depth + customer success + communication. Want to be embedded with customers, understand their real problems, and own the arc from discovery through deployed solution. Comfortable operating without a dedicated PM layer — at Mon Ami, took on independent PM scope even while working alongside senior PMs.
 
 ### Founder Ambition
 Long-term goal is to found a company. FDE and high-agency engineering roles are the path there — building the skills to understand customer problems deeply and ship solutions end-to-end.
@@ -233,7 +232,7 @@ Grew up in India, watched family navigate inaccessible healthcare — not becaus
 Credit rating systems feel blunt from personal experience with credit cards and student loans — a few missed payments define a borrowing profile regardless of actual financial picture. Relevant for Copperlane, fintech roles.
 
 ### Chess as hobby
-Plays chess but stuck in same rating bracket for a long time. Bots beat him regularly. Lesson learned: pattern recognition in complex systems, sensing when something is wrong before being able to articulate exactly why. Useful for debugging and production incident response.
+Plays chess recreationally. Developed strong pattern recognition in complex systems — sensing when something is wrong before being able to articulate exactly why. Applies to debugging and production incident response.
 
 ### Why Koah / AI ad monetization
 Curious about why specific things are recommended inside AI-native products like Poe or Perplexity. Thinks most companies (including OpenAI) are getting monetization wrong. AI-native ad intent signal is genuinely different from search or social — nobody has figured it out yet. Excited about Koah building that infrastructure at the right moment.

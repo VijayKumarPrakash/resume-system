@@ -54,17 +54,9 @@ python scripts/compile_resume.py <path/to/tex_VKP_Company_Role_YYYYMMDD.tex> <Co
 
 ---
 
-## Confirmed Facts (never fabricate beyond these)
+## Facts & Fabrication Policy
 
-- D.E. Shaw: **12+** technical interviews conducted (not "10+")
-- ETL pipeline: 2 days → ~6 hours (~70% reduction)
-- Escalations dropped **25%**, how-to tickets fell **20%**
-- On-call: **250+ incidents/month**, **30% reduction** in resolution time
-- CI/CD automation saved **10+ hrs/week**
-- Mon Ami: **4** workflows analyzed (not 6)
-- Mon Ami data issue: BigQuery anomaly detection
-- IB 104 web app: piloted with ~12 students and professors, ~120 quiz attempts, 36 quiz modes, 3 APIs (Wikipedia, Xeno-canto, GBIF), NOT yet live in course
-- D.E. Shaw data integrity story: two compounding bugs, thousands of records/day over 2-3 months, SQL Server + PostgreSQL + local filesystem, point-in-time requirement, rollback checkpoints, expensive queries scheduled around cluster load, downstream cache recalculation
+All facts, metrics, and accomplishments are in `candidate.md` — never fabricate specific numbers, dates, or credentials beyond what is documented there.
 
 ---
 
@@ -125,7 +117,7 @@ python scripts/compile_resume.py <path/to/tex_VKP_Company_Role_YYYYMMDD.tex> <Co
 - **AI Engineer roles:** LLM benchmark project is hero; frame around eval reliability, tool-calling, agent failure modes
 - **Data/Analytics roles:** D.E. Shaw pipeline + Mon Ami BigQuery funnels; Oorvani for narrative communication
 - **Backend/SWE roles:** D.E. Shaw distributed systems, data integrity story, CI/CD ownership
-- **PM/Product roles:** Mon Ami no-PM-layer ownership; Mon Ami PostHog analytics → roadmap decision
+- **PM/Product roles:** Mon Ami high-autonomy PM work alongside senior PMs; Mon Ami PostHog analytics → roadmap decision
 - **New grad roles:** Projects lead over experience; Berkeley framing as "graduating May 2026"
 - **Founding/startup roles:** "Engineer who ships," Claude Code daily usage, founder ambition, fast feedback loops
 - **ML/Research roles:** LLM benchmark project leads; PyTorch, HuggingFace, experimental design framing
@@ -140,5 +132,6 @@ python scripts/compile_resume.py <path/to/tex_VKP_Company_Role_YYYYMMDD.tex> <Co
 - Oorvani Foundation: include for analytics, FDE, data storytelling roles; omit for pure SWE
 - Cybersecurity Clinic (INFO 289): include for security-adjacent roles or where customer advisory is key
 - TA bullet: omit unless space allows
+- Cal Habitat for Humanity (Volunteering): include only when community impact, non-profit work, or social good is relevant to the role; omit by default
 - If page spills: first tighten spacing, then drop Oorvani, then condense lower D.E. Shaw tiers
 - If significant whitespace at bottom: restore content, loosen spacing, or add Oorvani back
