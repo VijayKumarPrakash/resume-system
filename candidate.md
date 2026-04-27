@@ -192,7 +192,7 @@ Python (primary), Java, JavaScript/Node.js, SQL, C/C++, Ruby on Rails, shell scr
 LangChain, OpenAI APIs, Anthropic APIs, RAG pipelines, agentic workflows, tool calling, LLM evaluation, prompt engineering, behavioral telemetry, multi-agent orchestration, context window optimization, HuggingFace, PyTorch, TensorFlow, scikit-learn, NumPy, pandas, SciPy
 
 ### Backend & Data
-PostgreSQL, MongoDB, BigQuery, AWS (S3, Redshift), GCP, Kafka, Spark, Redis, Elasticsearch, ClickHouse, REST APIs, distributed systems, microservices, system design
+PostgreSQL, MongoDB, BigQuery, AWS (S3, Redshift), GCP, Kafka, Spark, Redis, Elasticsearch, ClickHouse, FastAPI, REST APIs, distributed systems, microservices, system design
 
 ### Frontend
 React, Node.js, TypeScript, Next.js
@@ -207,7 +207,7 @@ TCP/IP, TLS, DNS, DHCP, NAT, VLANs, threat modeling, risk assessment
 SQL (advanced), A/B testing, causal inference, cohort analysis, statistical modeling, data visualization, Tableau, PostHog, dbt, Looker
 
 ### Tools & Platforms
-Claude Code, Cursor, Figma, GhostInspector
+Claude Code, Cursor, Figma, GhostInspector, Excel, Google Sheets
 
 ---
 

@@ -73,6 +73,7 @@ All facts, metrics, and accomplishments are in `candidate.md` — never fabricat
 - Do NOT include "Finishing MIMS at UC Berkeley (May 2026)" in summary — redundant
 - MongoDB listed explicitly in skills where relevant
 - All resumes must be exactly one page
+- Bold key impact metrics, standout numbers, and high-signal keywords within bullets using `\textbf{}` to aid skimming (e.g. `\textbf{70\%}`, `\textbf{250+}`, `\textbf{\$60B}`, `\textbf{PostgreSQL}`)
 
 ---
 
@@ -133,5 +134,6 @@ All facts, metrics, and accomplishments are in `candidate.md` — never fabricat
 - Cybersecurity Clinic (INFO 289): include for security-adjacent roles or where customer advisory is key
 - TA bullet: omit unless space allows
 - Cal Habitat for Humanity (Volunteering): include only when community impact, non-profit work, or social good is relevant to the role; omit by default
+- Excel/Google Sheets: include in skills only when the JD explicitly mentions them; omit by default as they are not a differentiator for most roles
 - If page spills: first tighten spacing, then drop Oorvani, then condense lower D.E. Shaw tiers
 - If significant whitespace at bottom: restore content, loosen spacing, or add Oorvani back
