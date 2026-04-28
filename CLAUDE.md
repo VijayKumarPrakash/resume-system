@@ -91,15 +91,16 @@ All facts, metrics, and accomplishments are in `candidate.md` — never fabricat
 4. Tailor the resume — framing, bullet selection, skills section
 5. Save `.tex` to: `/Users/vkp/Desktop/Resume/FTE Apps/[Company]/tex_VKP_[Company]_[Role]_[YYYYMMDD].tex`
 6. Confirm `.tex` file location to user
-<!-- TEMPORARILY DISABLED: PDF compilation skipped — user tweaks .tex manually before rendering
-6. Compile PDF: `python scripts/compile_resume.py <tex_path> <Company>`
-7. Save PDF to: `/Users/vkp/Desktop/Resume/FTE Apps/[Company]/VKP_[Company]_[Role]_[YYYYMMDD].pdf`
-8. Confirm file locations to user
--->
+7. **Do not compile to PDF unless the user explicitly asks**
+
+### When asked to compile to PDF:
+1. Run: `python scripts/compile_resume.py <path/to/tex_VKP_Company_Role_YYYYMMDD.tex> <Company>`
+2. PDF will be saved to: `/Users/vkp/Desktop/Resume/[Company]/VKP_[Company]_[Role]_[YYYYMMDD].pdf`
+3. Confirm PDF file location to user
 
 ### Naming convention:
-- `tex_VKP_[Company]_[Role]_[YYYYMMDD].tex`
-<!-- TEMPORARILY DISABLED: - `VKP_[Company]_[Role]_[YYYYMMDD].pdf` -->
+- `.tex`: `tex_VKP_[Company]_[Role]_[YYYYMMDD].tex`
+- `.pdf`: `VKP_[Company]_[Role]_[YYYYMMDD].pdf`
 - Role abbreviations: SWE, FDE, DS, PM, MLE, AE, SE, ANALYST, OTHER
 - Auto-detect role from JD; confirm with user if ambiguous
 
@@ -107,7 +108,7 @@ All facts, metrics, and accomplishments are in `candidate.md` — never fabricat
 1. Read the existing `.tex` file
 2. Make the requested change using str_replace
 3. Confirm updated `.tex` file location
-<!-- TEMPORARILY DISABLED: Recompile PDF after changes -->
+4. Do not recompile to PDF unless the user explicitly asks
 
 ### When asked to remember something permanently:
 - Update this file (CLAUDE.md) or candidate.md as appropriate
