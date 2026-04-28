@@ -90,21 +90,24 @@ All facts, metrics, and accomplishments are in `candidate.md` — never fabricat
 3. Identify the role axis (see Role Axes below)
 4. Tailor the resume — framing, bullet selection, skills section
 5. Save `.tex` to: `/Users/vkp/Desktop/Resume/FTE Apps/[Company]/tex_VKP_[Company]_[Role]_[YYYYMMDD].tex`
+6. Confirm `.tex` file location to user
+<!-- TEMPORARILY DISABLED: PDF compilation skipped — user tweaks .tex manually before rendering
 6. Compile PDF: `python scripts/compile_resume.py <tex_path> <Company>`
 7. Save PDF to: `/Users/vkp/Desktop/Resume/FTE Apps/[Company]/VKP_[Company]_[Role]_[YYYYMMDD].pdf`
 8. Confirm file locations to user
+-->
 
 ### Naming convention:
 - `tex_VKP_[Company]_[Role]_[YYYYMMDD].tex`
-- `VKP_[Company]_[Role]_[YYYYMMDD].pdf`
+<!-- TEMPORARILY DISABLED: - `VKP_[Company]_[Role]_[YYYYMMDD].pdf` -->
 - Role abbreviations: SWE, FDE, DS, PM, MLE, AE, SE, ANALYST, OTHER
 - Auto-detect role from JD; confirm with user if ambiguous
 
 ### When asked to update a resume:
 1. Read the existing `.tex` file
 2. Make the requested change using str_replace
-3. Recompile PDF
-4. Confirm updated file locations
+3. Confirm updated `.tex` file location
+<!-- TEMPORARILY DISABLED: Recompile PDF after changes -->
 
 ### When asked to remember something permanently:
 - Update this file (CLAUDE.md) or candidate.md as appropriate
