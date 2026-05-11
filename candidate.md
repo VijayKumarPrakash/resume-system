@@ -23,14 +23,15 @@
 - Dates: Aug 2024 - May 2026
 - GPA: 3.88 (display as 3.9)
 - Focus: Product, Data & Engineering
-- Relevant coursework: Agentic AI, Applied GenAI, Machine Learning, NLP, Web App Dev, Causal Inference, Quantitative Data Analysis, Public Interest Cybersecurity Clinic (INFO 289)
+- Relevant coursework: Agentic AI, Applied GenAI, Machine Learning, NLP, Web App Dev, Causal Inference, Quantitative Data Analysis, Public Interest Cybersecurity Clinic
 - Teaching Assistant: MEDIAST 114 (Media and Globalization)
+- Teaching Assistant: MCB C146 (Data Science for Bio)
 
 ### Christ University, Bangalore
 - Degree: B.Sc. Computer Science, summa cum laude
 - Dates: June 2017 - June 2020
 - GPA: 3.96
-- Relevant coursework: Data Structures & Algorithms, Math & Statistics, Operating Systems, Computer Networks, DBMS, Cloud Computing, Object-Oriented Design
+- Relevant coursework: Data Structures & Algorithms, Math & Statistics, Operating Systems, Computer Networks, Advanced DBMS, Cloud Computing, Object-Oriented Design
 
 ---
 
@@ -54,6 +55,10 @@ Facts & accomplishments:
 
 ### D.E. Shaw — Hyderabad, India
 **Total tenure:** June 2020 - July 2024 (4 years, 1 month)
+
+**Divisions:**
+- D-Tech Division: worked with assets including bonds, convertible bonds, SPACs, and credit opportunities
+- Fundamental Equities (FE) department: supported FE traders working with equities, futures, futures swaps, and M&As
 
 #### Lead Tech Associate
 **Dates:** Jan 2024 - Jul 2024
@@ -114,7 +119,7 @@ Facts & accomplishments:
 
 ### UC Berkeley — Berkeley, CA
 **Role:** Teaching Assistant, MEDIAST 114 (Media and Globalization)
-**Dates:** Spring 2026
+**Dates:** Fall 2025 - Spring 2026
 
 Facts & accomplishments:
 - Awarded Outstanding GSI (Graduate Student Instructor) for the Media Studies department, 2025-26
@@ -189,10 +194,10 @@ Facts & accomplishments:
 Python (primary), Java, JavaScript/Node.js, SQL, C/C++, Ruby on Rails, shell scripting, TypeScript
 
 ### AI & Agents
-LangChain, OpenAI APIs, Anthropic APIs, RAG pipelines, agentic workflows, tool calling, LLM evaluation, prompt engineering, behavioral telemetry, multi-agent orchestration, context window optimization, HuggingFace, PyTorch, TensorFlow, scikit-learn, NumPy, pandas, SciPy
+LangChain, OpenAI APIs, Anthropic APIs, RAG pipelines, agentic AI, agentic workflows, tool calling, LLM evaluation, prompt engineering, behavioral telemetry, multi-agent orchestration, context window optimization, HuggingFace, PyTorch, TensorFlow, scikit-learn, NumPy, pandas, SciPy
 
 ### Backend & Data
-PostgreSQL, MongoDB, BigQuery, AWS (S3, Redshift), GCP, Kafka, Spark, Redis, Elasticsearch, ClickHouse, FastAPI, REST APIs, distributed systems, microservices, system design
+PostgreSQL, MongoDB, BigQuery, AWS (EC2, S3, RDS, Lambda, Redshift), GCP, Kafka, Spark, Redis, Elasticsearch, ClickHouse, FastAPI, REST APIs, distributed systems, microservices, system design, SQL databases, NoSQL databases
 
 ### Frontend
 React, Node.js, TypeScript, Next.js
