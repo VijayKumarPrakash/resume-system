@@ -2,7 +2,7 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
-_Resume system for Vijay Kumar Prakash. Last updated: 2026-04-26._
+_Resume system for Vijay Kumar Prakash. Last updated: 2026-05-15._
 
 ---
 
@@ -10,7 +10,7 @@ _Resume system for Vijay Kumar Prakash. Last updated: 2026-04-26._
 
 Three source files drive everything:
 
-- **`candidate.md`** — Primary source of truth for facts and metrics. Use judgment to frame experience in the most favorable light for each role — strong framing, transferable skill mapping, and presenting adjacent experience confidently are all acceptable. Never invent specific numbers, dates, or credentials that don't exist.
+- **`candidate.md`** — Primary source of truth for facts and metrics. Use judgment to frame experience in the most favorable light for each role — strong framing, transferable skill mapping, and presenting adjacent experience confidently are all acceptable. Never invent specific numbers, dates, or credentials that don't exist. Bullet text may be rephrased freely — verbatim phrasing is fine when it reads well, but rewriting for clarity, impact, or role fit is encouraged. Facts and metrics must remain accurate; prose is fair game.
 - **`template.tex`** — LaTeX formatting skeleton (margins, fonts, section structure). Content is swapped in per-role.
 - **`CLAUDE.md`** (this file) — candidate identity, confirmed metrics, role framing axes, formatting rules, and workflow.
 
@@ -20,7 +20,15 @@ Generated files go to `/Users/vkp/Desktop/Resume/FTE Apps/[Company]/` — never 
 
 ## Scripts & Environment
 
-Python 3.12 virtual environment at `.venv/`. Playwright is the only notable dependency (for headless JD fetching).
+Python 3.12 virtual environment at `.venv/`. Playwright is the only notable dependency (for headless JD fetching). All scripts live in `scripts/`.
+
+**First-time setup** (if `.venv/` doesn't exist):
+```bash
+python3.12 -m venv .venv
+source .venv/bin/activate
+pip install playwright
+playwright install chromium
+```
 
 **Launch Claude from within the venv** (use `scripts/start.sh`):
 ```bash
@@ -74,6 +82,7 @@ All facts, metrics, and accomplishments are in `candidate.md` — never fabricat
 - MongoDB listed explicitly in skills where relevant
 - All resumes must be exactly one page
 - Use `\textbf{}` sparingly — highlight only the most impactful metric or keyword in select bullets, not every bullet. In the summary, use it at most once on the single strongest signal. The goal is to reward skimming, not make every line look busy.
+- Christ University: omit location — display as "Christ University" with no city
 
 ---
 
